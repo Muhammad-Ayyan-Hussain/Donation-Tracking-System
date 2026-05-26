@@ -156,7 +156,7 @@ http://localhost/DonationSystem
 
 ```text
 Username: admin
-Password: admin123
+Password: Admin@123
 ```
 
 You can change the password from:
