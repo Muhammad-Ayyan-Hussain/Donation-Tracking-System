@@ -5,6 +5,9 @@ A comprehensive **Donation Tracking Management System** built using **PHP, MySQL
 This project was developed for academic and educational purposes to help organizations efficiently manage donors, donations, campaigns, payments, beneficiaries, volunteers, reports, and related activities.
 
 ---
+## Project Purpose
+
+This project was developed as a Database Management System (DBMS) academic project to demonstrate database design, CRUD operations, relational database management, and web application development using PHP and MySQL.
 
 ## Features
 
@@ -46,10 +49,24 @@ This project was developed for academic and educational purposes to help organiz
 * XAMPP
 
 ---
+## Project Structure
+
+DonationSystem/
+├── auth/
+├── assets/
+├── dashboard/
+├── donors/
+├── donations/
+├── campaigns/
+├── organizations/
+├── payments/
+├── reports/
+├── includes/
+└── donation_system.sql
 
 ## Requirements
 
-Before running the project, install:
+Before running the project, ensure the following software is installed:
 
 * XAMPP
 * PHP 8.0 or later
@@ -65,7 +82,7 @@ Before running the project, install:
 Clone the repository or download it as a ZIP file.
 
 ```bash
-https://github.com/Muhammad-Ayyan-Hussain/Donation-Tracking-System.git
+git clone https://github.com/Muhammad-Ayyan-Hussain/Donation-Tracking-System.git
 ```
 
 ### Step 2 – Move Project Folder
