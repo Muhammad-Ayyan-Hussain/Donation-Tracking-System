@@ -62,10 +62,32 @@ DonationSystem/
 ├── campaigns/
 ├── organizations/
 ├── payments/
+├── receipts/
+├── pledges/
+├── funds/
+├── beneficiaries/
+├── events/
+├── volunteers/
 ├── reports/
 ├── includes/
 └── donation_system.sql
 ```
+
+## Screenshots
+
+Project screenshots are available in the **Screenshots/** folder included in this repository.
+
+The folder contains screenshots of various modules, including:
+
+* Login Page
+* Dashboard
+* Donor Management
+* Donation Management
+* Campaign Management
+* Reports Module
+* Other system interfaces
+
+
 ## Requirements
 
 Before running the project, ensure the following software is installed:
