@@ -49,6 +49,7 @@ This project was developed as a Database Management System (DBMS) academic proje
 * XAMPP
 
 ---
+
 ## Project Structure
 
 DonationSystem/
