@@ -52,6 +52,7 @@ This project was developed as a Database Management System (DBMS) academic proje
 
 ## Project Structure
 
+```
 DonationSystem/
 ├── auth/
 ├── assets/
@@ -64,7 +65,7 @@ DonationSystem/
 ├── reports/
 ├── includes/
 └── donation_system.sql
-
+```
 ## Requirements
 
 Before running the project, ensure the following software is installed:
