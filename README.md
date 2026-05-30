@@ -65,7 +65,7 @@ Before running the project, install:
 Clone the repository or download it as a ZIP file.
 
 ```bash
-git clone https://github.com/your-username/Donation-Tracking-System.git
+https://github.com/Muhammad-Ayyan-Hussain/Donation-Tracking-System.git
 ```
 
 ### Step 2 – Move Project Folder
