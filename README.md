@@ -1,14 +1,14 @@
 # Donation Tracking System
 
-A complete **Donation Tracking Management System** developed using **PHP, MySQL, HTML, CSS, JavaScript, Bootstrap 5, and Font Awesome**.
+A comprehensive **Donation Tracking Management System** built using **PHP, MySQL, HTML, CSS, JavaScript, Bootstrap 5, and Font Awesome**.
 
-This project is designed for educational purposes and helps to manage donations, campaigns, donors, payments, volunteers, sponsors, reports, and more.
+This project was developed for academic and educational purposes to help organizations efficiently manage donors, donations, campaigns, payments, beneficiaries, volunteers, reports, and related activities.
 
+---
 
+## Features
 
-# Features
-
-* Admin Login System
+* Secure Admin Login System
 * Dashboard with Statistics
 * Donor Management
 * Donation Management
@@ -20,21 +20,21 @@ This project is designed for educational purposes and helps to manage donations,
 * Fund Management
 * Beneficiary Management
 * Event Management
-* Donation Types
-* Tax Records
+* Donation Types Management
+* Tax Records Management
 * Thank You Notes
 * Sponsors Management
-* Donation History
+* Donation History Tracking
 * Programs Management
 * Volunteers Management
-* Grant Applications
-* Reports Section
+* Grant Applications Management
+* Reports Module
 * Donor Profiles
-* Change Password System
+* Change Password Functionality
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 * PHP
 * MySQL
@@ -47,26 +47,28 @@ This project is designed for educational purposes and helps to manage donations,
 
 ---
 
-# Requirements
+## Requirements
 
-Before running this project, install:
+Before running the project, install:
 
 * XAMPP
-* PHP 8+
+* PHP 8.0 or later
 * MySQL
-* Web Browser
+* Any modern web browser
 
 ---
 
-# Installation Guide
+## Installation Guide
 
-## Step 1 — Download Project
+### Step 1 – Download the Project
 
-Download or clone this repository.
+Clone the repository or download it as a ZIP file.
 
----
+```bash
+git clone https://github.com/your-username/Donation-Tracking-System.git
+```
 
-## Step 2 — Move Project Folder
+### Step 2 – Move Project Folder
 
 Copy the project folder:
 
@@ -80,71 +82,44 @@ Paste it inside:
 C:\xampp\htdocs\
 ```
 
-Final structure should look like:
+Final structure:
 
 ```text
 htdocs/
 └── DonationSystem/
 ```
 
----
+### Step 3 – Start XAMPP
 
-## Step 3 — Start XAMPP
-
-Install and Open XAMPP Control Panel and start:
+Open XAMPP Control Panel and start:
 
 * Apache
 * MySQL
 
----
+### Step 4 – Create Database
 
-## Step 4 — Create Database
-
-Open browser:
+Open:
 
 ```text
 http://localhost/phpmyadmin
 ```
 
-Create a new database named:
+Create a database named:
 
 ```text
 donation_system
 ```
 
----
+### Step 5 – Import Database
 
-## Step 5 — Import Database
+1. Open database `donation_system`
+2. Click **Import**
+3. Select `donation_system.sql`
+4. Click **Go**
 
-1. Open database:
+### Step 6 – Run the Project
 
-   ```text
-   donation_system
-   ```
-
-2. Click:
-
-   ```text
-   Import
-   ```
-
-3. Choose file:
-
-   ```text
-   donation_system.sql
-   ```
-
-4. Click:
-
-   ```text
-   Go
-   ```
-
----
-
-## Step 6 — Run Project
-
-Open browser:
+Open:
 
 ```text
 http://localhost/DonationSystem
@@ -152,24 +127,18 @@ http://localhost/DonationSystem
 
 ---
 
-# Default Login
+## Default Login Credentials
 
 ```text
 Username: admin
 Password: Admin@123
 ```
 
-You can change the password from:
-
-```text
-Change Password
-```
-
-inside the dashboard.
+You can change the password from the **Change Password** section inside the dashboard.
 
 ---
 
-# Project Modules
+## Project Modules
 
 * Dashboard
 * Donors
@@ -195,24 +164,48 @@ inside the dashboard.
 
 ---
 
-# Important Notes
+## Database Entities
 
-* Currency used in project:
+The project includes the following database entities:
 
-  ```text
-  PKR (Pakistani Rupees)
-  ```
+* Donors
+* Donations
+* Campaigns
+* Organizations
+* Payments
+* Receipts
+* Pledges
+* Funds
+* Beneficiaries
+* Events
+* Donation Types
+* Tax Records
+* Thank You Notes
+* Sponsors
+* Donation History
+* Programs
+* Volunteers
+* Grant Applications
+* Reports
+* Donor Profiles
 
-* Make sure database name remains:
+---
 
-  ```text
-  donation_system
-  ```
+## Important Notes
 
-* If CSS/design does not load:
+### Currency
 
-  * Check folder structure
-  * Ensure project is directly inside `htdocs`
+```text
+PKR (Pakistani Rupees)
+```
+
+### Database Name
+
+```text
+donation_system
+```
+
+### Correct Folder Structure
 
 Correct:
 
@@ -220,27 +213,38 @@ Correct:
 htdocs/DonationSystem
 ```
 
-Wrong:
+Incorrect:
 
 ```text
 htdocs/DonationSystem/DonationSystem
 ```
 
+If the design or CSS is not loading correctly, verify that the project folder is placed directly inside the `htdocs` directory.
+
 ---
 
-# Future Improvements
+## Future Improvements
 
-Possible future enhancements:
+Potential future enhancements include:
 
 * Email Notifications
-* PDF Reports
-* Data Export
-* Charts & Analytics
-* Multi-Admin System
-* Online Donation Gateway
-* Mobile Responsive Improvements
-* Password Encryption
-* Search & Filter System
+* PDF Report Generation
+* Excel/CSV Export
+* Advanced Search and Filters
+* Interactive Charts and Analytics
+* Multi-Admin Support
+* Online Payment Gateway Integration
+* Mobile Responsive Enhancements
+* Password Encryption & Security Improvements
+* Role-Based Access Control
 
 ---
 
+
+## Author
+
+**Muhammad Ayyan Hussain**
+
+Database Management System Project
+
+GitHub: https://github.com/Muhammad-Ayyan-Hussain
