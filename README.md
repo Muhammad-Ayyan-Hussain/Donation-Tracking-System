@@ -172,7 +172,7 @@ http://localhost/DonationSystem
 
 ```text
 Username: admin
-Password: Admin@123
+Password: Ayyan@123
 ```
 
 You can change the password from the **Change Password** section inside the dashboard.
